@@ -25,4 +25,11 @@ public class EmailController {
 		emailService.sendMail();
 		System.out.println("****** EMail is Sending ********");
 	}
+	
+	@PostMapping("/retrive")
+	public void retriveEmail()
+	{
+		emailService.sendMail();
+		System.out.println("****** retrive Email ********");
+	}
 }
