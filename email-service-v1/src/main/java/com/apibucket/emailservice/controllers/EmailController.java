@@ -32,4 +32,11 @@ public class EmailController {
 		emailService.sendMail();
 		System.out.println("****** retrive Email ********");
 	}
+	
+	@PostMapping("/delete")
+	public void deleteEmail()
+	{
+		emailService.sendMail();
+		System.out.println("****** delete Email ********");
+	}
 }
